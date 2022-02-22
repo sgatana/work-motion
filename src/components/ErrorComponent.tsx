@@ -5,7 +5,6 @@ interface Props {
 }
 
 const  ErrorComponent: React.FC<Props> = ({ error }) => {
-  console.log(error)
   return <div>{error}</div>;
 }
 

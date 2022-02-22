@@ -12,11 +12,9 @@ export const useFetchData = (action: () => Employee[], refresh: Boolean) => {
       setData([])
       try {
         const result = await action();
-        console.log({result})
         setData(result);
         setIsLoading(false);
       } catch (ex: any) {
-        console.log({ex})
         setIsLoading(false);
         setError(ex);
       }
