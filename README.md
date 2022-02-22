@@ -38,4 +38,5 @@ Your task is to build a frontend application using React / Typescript including 
 
 - clone the repo on download the application, cd to project directory
 - Install packages by executing `yarn` or `npm install`
-- Run `yarn start` or `npm start` to start the application locally
+- Run `yarn start-dev` or `npm run start-dev` to start the application locally
+- To start production build, run `yarn build` or `npm run build` then run `yarn start` or `npm start`
